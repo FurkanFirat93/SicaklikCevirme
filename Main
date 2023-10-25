@@ -1,0 +1,18 @@
+package com.example.javaodevler;
+
+import java.util.Scanner;
+
+public class SicaklikCevirme {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Sıcaklık Çevirme Programına Hoşgeldiniz.");
+        System.out.println("Lütfen Fahrenighta çevirmek istediğiniz sıcaklık değerini giriniz:");
+        int Santigrant = scanner.nextInt();
+        System.out.println("Girmiş olduğunuz sıcaklık değerinin Fahrenight değeri:");
+        double Fahrenight = Santigrant*1.8+32;
+        System.out.println(Fahrenight);
+
+
+
+    }
+}
